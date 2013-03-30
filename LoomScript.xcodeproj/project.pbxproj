@@ -6,48 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C4E410C71707940300FDC239 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E410C61707940300FDC239 /* Cocoa.framework */; };
-		C4E410D11707940300FDC239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E410CF1707940300FDC239 /* InfoPlist.strings */; };
-		C4E410D31707940400FDC239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E410D21707940400FDC239 /* main.m */; };
-		C4E410D71707940400FDC239 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C4E410D51707940400FDC239 /* Credits.rtf */; };
-		C4E410DA1707940400FDC239 /* FYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E410D91707940400FDC239 /* FYAppDelegate.m */; };
-		C4E410DD1707940400FDC239 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E410DB1707940400FDC239 /* MainMenu.xib */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		C4E410C31707940300FDC239 /* LoomScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoomScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4E410C61707940300FDC239 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		C4E410C91707940300FDC239 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		C4E410CA1707940300FDC239 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C4E410CB1707940300FDC239 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C4E410CE1707940300FDC239 /* LoomScript-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoomScript-Info.plist"; sourceTree = "<group>"; };
-		C4E410D01707940300FDC239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C4E410D21707940400FDC239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4E410D41707940400FDC239 /* LoomScript-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoomScript-Prefix.pch"; sourceTree = "<group>"; };
-		C4E410D61707940400FDC239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C4E410D81707940400FDC239 /* FYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYAppDelegate.h; sourceTree = "<group>"; };
-		C4E410D91707940400FDC239 /* FYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYAppDelegate.m; sourceTree = "<group>"; };
-		C4E410DC1707940400FDC239 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C4E4111117079A6A00FDC239 /* main.ls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.ls; path = src/main.ls; sourceTree = SOURCE_ROOT; };
+		C4E4111217079A6A00FDC239 /* Sample.ls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Sample.ls; path = src/Sample.ls; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.java; };
+		C4E4111417079A7900FDC239 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C4E4111617079A7900FDC239 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C4E4111817079A7900FDC239 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C4E4111A17079A9300FDC239 /* Main.loom */ = {isa = PBXFileReference; lastKnownFileType = file; path = Main.loom; sourceTree = "<group>"; };
+		C4E4111D17079A9300FDC239 /* LoomDemo.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = LoomDemo.app; sourceTree = "<group>"; };
+		C4E4111E17079AA000FDC239 /* loom.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loom.config; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
+		C4E4111F17079AB600FDC239 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = icons/ios/Default.png; sourceTree = SOURCE_ROOT; };
+		C4E4112017079AB600FDC239 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "icons/ios/Icon-57.png"; sourceTree = SOURCE_ROOT; };
+		C4E4112117079AB600FDC239 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "icons/ios/Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		C4E4112217079AB600FDC239 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "icons/ios/Icon-114.png"; sourceTree = SOURCE_ROOT; };
+		C4E4112317079AB600FDC239 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "icons/ios/Icon-144.png"; sourceTree = SOURCE_ROOT; };
+		C4E4112417079AC900FDC239 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = assets/bg.png; sourceTree = SOURCE_ROOT; };
+		C4E4112517079AC900FDC239 /* Curse-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Curse-hd.fnt"; path = "assets/Curse-hd.fnt"; sourceTree = SOURCE_ROOT; };
+		C4E4112617079AC900FDC239 /* Curse-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Curse-hd.png"; path = "assets/Curse-hd.png"; sourceTree = SOURCE_ROOT; };
+		C4E4112717079AC900FDC239 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = assets/logo.png; sourceTree = SOURCE_ROOT; };
+		C4E4112817079B7900FDC239 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		C4E4112917079B9A00FDC239 /* loomscript.xlangspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loomscript.xlangspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		C4E410C01707940300FDC239 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4E410C71707940300FDC239 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C4E410BA1707940300FDC239 = {
 			isa = PBXGroup;
 			children = (
 				C4E410CC1707940300FDC239 /* LoomScript */,
-				C4E410C51707940300FDC239 /* Frameworks */,
 				C4E410C41707940300FDC239 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,36 +40,15 @@
 		C4E410C41707940300FDC239 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4E410C31707940300FDC239 /* LoomScript.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C4E410C51707940300FDC239 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C4E410C61707940300FDC239 /* Cocoa.framework */,
-				C4E410C81707940300FDC239 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4E410C81707940300FDC239 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C4E410C91707940300FDC239 /* AppKit.framework */,
-				C4E410CA1707940300FDC239 /* CoreData.framework */,
-				C4E410CB1707940300FDC239 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		C4E410CC1707940300FDC239 /* LoomScript */ = {
 			isa = PBXGroup;
 			children = (
-				C4E410D81707940400FDC239 /* FYAppDelegate.h */,
-				C4E410D91707940400FDC239 /* FYAppDelegate.m */,
-				C4E410DB1707940400FDC239 /* MainMenu.xib */,
+				C4E410F0170796E600FDC239 /* src */,
+				C4E410F11707970600FDC239 /* assets */,
 				C4E410CD1707940300FDC239 /* Supporting Files */,
 			);
 			path = LoomScript;
@@ -93,36 +57,180 @@
 		C4E410CD1707940300FDC239 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4E410CE1707940300FDC239 /* LoomScript-Info.plist */,
-				C4E410CF1707940300FDC239 /* InfoPlist.strings */,
-				C4E410D21707940400FDC239 /* main.m */,
-				C4E410D41707940400FDC239 /* LoomScript-Prefix.pch */,
-				C4E410D51707940400FDC239 /* Credits.rtf */,
+				C4E4111E17079AA000FDC239 /* loom.config */,
+				C4E4111917079A9300FDC239 /* bin */,
+				C4E4111B17079A9300FDC239 /* build */,
+				C4E4112817079B7900FDC239 /* Config.xcconfig */,
+				C4E4112917079B9A00FDC239 /* loomscript.xlangspec */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C4E410EC170796AA00FDC239 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4112417079AC900FDC239 /* bg.png */,
+				C4E4112517079AC900FDC239 /* Curse-hd.fnt */,
+				C4E4112617079AC900FDC239 /* Curse-hd.png */,
+				C4E4112717079AC900FDC239 /* logo.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		C4E410EF170796CF00FDC239 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C4E410F6170797A900FDC239 /* osx */,
+				C4E410F5170797A200FDC239 /* android */,
+				C4E410F41707979D00FDC239 /* ios */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		C4E410F0170796E600FDC239 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111117079A6A00FDC239 /* main.ls */,
+				C4E4111217079A6A00FDC239 /* Sample.ls */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		C4E410F11707970600FDC239 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4E410EF170796CF00FDC239 /* icons */,
+				C4E410EC170796AA00FDC239 /* assets */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		C4E410F41707979D00FDC239 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111F17079AB600FDC239 /* Default.png */,
+				C4E4112017079AB600FDC239 /* Icon-57.png */,
+				C4E4112117079AB600FDC239 /* Icon-72.png */,
+				C4E4112217079AB600FDC239 /* Icon-114.png */,
+				C4E4112317079AB600FDC239 /* Icon-144.png */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		C4E410F5170797A200FDC239 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111317079A7900FDC239 /* drawable-hdpi */,
+				C4E4111517079A7900FDC239 /* drawable-ldpi */,
+				C4E4111717079A7900FDC239 /* drawable-mdpi */,
+			);
+			name = android;
+			sourceTree = "<group>";
+		};
+		C4E410F6170797A900FDC239 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = osx;
+			sourceTree = "<group>";
+		};
+		C4E4111317079A7900FDC239 /* drawable-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111417079A7900FDC239 /* icon.png */,
+			);
+			name = "drawable-hdpi";
+			path = "icons/android/drawable-hdpi";
+			sourceTree = SOURCE_ROOT;
+		};
+		C4E4111517079A7900FDC239 /* drawable-ldpi */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111617079A7900FDC239 /* icon.png */,
+			);
+			name = "drawable-ldpi";
+			path = "icons/android/drawable-ldpi";
+			sourceTree = SOURCE_ROOT;
+		};
+		C4E4111717079A7900FDC239 /* drawable-mdpi */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111817079A7900FDC239 /* icon.png */,
+			);
+			name = "drawable-mdpi";
+			path = "icons/android/drawable-mdpi";
+			sourceTree = SOURCE_ROOT;
+		};
+		C4E4111917079A9300FDC239 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111A17079A9300FDC239 /* Main.loom */,
+			);
+			path = bin;
+			sourceTree = SOURCE_ROOT;
+		};
+		C4E4111B17079A9300FDC239 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111C17079A9300FDC239 /* ios */,
+			);
+			path = build;
+			sourceTree = SOURCE_ROOT;
+		};
+		C4E4111C17079A9300FDC239 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4111D17079A9300FDC239 /* LoomDemo.app */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		C4E410C21707940300FDC239 /* LoomScript */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4E410E01707940400FDC239 /* Build configuration list for PBXNativeTarget "LoomScript" */;
+/* Begin PBXLegacyTarget section */
+		C4E410E7170795BD00FDC239 /* Loom Android */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "run --android";
+			buildConfigurationList = C4E410E8170795BD00FDC239 /* Build configuration list for PBXLegacyTarget "Loom Android" */;
 			buildPhases = (
-				C4E410BF1707940300FDC239 /* Sources */,
-				C4E410C01707940300FDC239 /* Frameworks */,
-				C4E410C11707940300FDC239 /* Resources */,
 			);
-			buildRules = (
-			);
+			buildToolPath = /usr/local/loom/bin/loom;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
-			name = LoomScript;
-			productName = LoomScript;
-			productReference = C4E410C31707940300FDC239 /* LoomScript.app */;
-			productType = "com.apple.product-type.application";
+			name = "Loom Android";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Loom Android";
 		};
-/* End PBXNativeTarget section */
+		C4E411081707986600FDC239 /* Loom OSX */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "run --osx";
+			buildConfigurationList = C4E411091707986600FDC239 /* Build configuration list for PBXLegacyTarget "Loom OSX" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/loom/bin/loom;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Loom OSX";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Loom OSX";
+		};
+		C4E4112A17079BD700FDC239 /* Loom iOS */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "run --ios";
+			buildConfigurationList = C4E4112B17079BD700FDC239 /* Build configuration list for PBXLegacyTarget "Loom iOS" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/loom/bin/loom;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Loom iOS";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Loom iOS";
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
 		C4E410BB1707940300FDC239 /* Project object */ = {
@@ -144,62 +252,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4E410C21707940300FDC239 /* LoomScript */,
+				C4E410E7170795BD00FDC239 /* Loom Android */,
+				C4E411081707986600FDC239 /* Loom OSX */,
+				C4E4112A17079BD700FDC239 /* Loom iOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		C4E410C11707940300FDC239 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4E410D11707940300FDC239 /* InfoPlist.strings in Resources */,
-				C4E410D71707940400FDC239 /* Credits.rtf in Resources */,
-				C4E410DD1707940400FDC239 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		C4E410BF1707940300FDC239 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4E410D31707940400FDC239 /* main.m in Sources */,
-				C4E410DA1707940400FDC239 /* FYAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C4E410CF1707940300FDC239 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E410D01707940300FDC239 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C4E410D51707940400FDC239 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E410D61707940400FDC239 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		C4E410DB1707940400FDC239 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E410DC1707940400FDC239 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4E410DE1707940400FDC239 /* Debug */ = {
@@ -261,27 +319,66 @@
 			};
 			name = Release;
 		};
-		C4E410E11707940400FDC239 /* Debug */ = {
+		C4E410E9170795BD00FDC239 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoomScript/LoomScript-Prefix.pch";
-				INFOPLIST_FILE = "LoomScript/LoomScript-Info.plist";
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		C4E410E21707940400FDC239 /* Release */ = {
+		C4E410EA170795BD00FDC239 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoomScript/LoomScript-Prefix.pch";
-				INFOPLIST_FILE = "LoomScript/LoomScript-Info.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4E4110A1707986600FDC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E4110B1707986600FDC239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E4112C17079BD700FDC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E4112D17079BD700FDC239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -297,11 +394,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4E410E01707940400FDC239 /* Build configuration list for PBXNativeTarget "LoomScript" */ = {
+		C4E410E8170795BD00FDC239 /* Build configuration list for PBXLegacyTarget "Loom Android" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E410E11707940400FDC239 /* Debug */,
-				C4E410E21707940400FDC239 /* Release */,
+				C4E410E9170795BD00FDC239 /* Debug */,
+				C4E410EA170795BD00FDC239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E411091707986600FDC239 /* Build configuration list for PBXLegacyTarget "Loom OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4110A1707986600FDC239 /* Debug */,
+				C4E4110B1707986600FDC239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E4112B17079BD700FDC239 /* Build configuration list for PBXLegacyTarget "Loom iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4112C17079BD700FDC239 /* Debug */,
+				C4E4112D17079BD700FDC239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

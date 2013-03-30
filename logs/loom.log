@@ -1,0 +1,59 @@
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built Mar 18 2013 22:12:13
+[asset.protocol] LOG: initializing config
+[asset.protocol] LOG: [cocos.CCTexture2D] loading assets/fps_images.png
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [cocos.CCTexture2D] loading assets/bg.png
+[asset.protocol] LOG: [cocos.CCTexture2D] loading assets/logo.png
+[asset.protocol] LOG: [cocos.CCBMFontConfiguration] loading assets/Curse-hd.fnt
+[asset.protocol] LOG: [cocos.CCBMFontConfiguration] notification assets/Curse-hd.fnt
+[asset.protocol] LOG: [cocos.CCTexture2D] loading assets/Curse-hd.png
+[loom.asset] SENDING       -  src/Sample.ls
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 172298 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: System.Reflection.FieldInfo : 55
+[asset.protocol] LOG: System.Reflection.MethodInfo : 4
+[asset.protocol] LOG: System.Reflection.Type : 8
+[asset.protocol] LOG: cocos2d.CCSprite : 2
+[asset.protocol] LOG: UI.Label : 1
+[asset.protocol] LOG: System.Reflection.PropertyInfo : 2
+[asset.protocol] LOG: cocos2d.CCScaledLayer : 1
+[asset.protocol] LOG: cocos2d.CCLayerColor : 1
+[asset.protocol] LOG: System.VM : 1
+[asset.protocol] LOG: System.Reflection.MetaInfo : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [loom.application] LOOM Built Mar 18 2013 22:12:13
+[asset.protocol] LOG: initializing config
+[asset.protocol] LOG: Command manager online.
+[loom.asset] SENDING       -  src/Sample.ls
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 172584 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: System.Reflection.MetaInfo : 1
+[asset.protocol] LOG: System.Reflection.FieldInfo : 55
+[asset.protocol] LOG: System.Reflection.Type : 6
+[asset.protocol] LOG: UI.Label : 1
+[asset.protocol] LOG: System.VM : 1
+[asset.protocol] LOG: cocos2d.CCLayerColor : 1
+[asset.protocol] LOG: cocos2d.CCSprite : 2
+[asset.protocol] LOG: cocos2d.CCScaledLayer : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [loom.application] LOOM Built Mar 18 2013 22:12:13
+[asset.protocol] LOG: initializing config
+[asset.protocol] LOG: Command manager online.
